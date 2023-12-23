@@ -1,4 +1,2 @@
-name,surname
-Anastasia,Skorohodova
-Daria,Koval
-Slava,Trest
+select name, surname from netology.persons
+where city_of_living = 'MOSCOW';
